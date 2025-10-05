@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "cpi": "mkdir -p dist/images && (cp slides/images/* dist/images/ 2>/dev/null || true)",
-    "build": "npm run cpi && marp -I slides -o dist --theme slides/theme.css"
+    "build": "npm run cpi && marp -I slides -o dist"
   },
   "keywords": [],
   "author": "",
